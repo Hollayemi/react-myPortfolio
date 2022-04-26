@@ -1,0 +1,30 @@
+.myMain{
+    background-image: url('../../asset/img_coffee.jpg');
+    background-size: cover;
+}
+@media screen and (max-width:800px) {
+    
+    .myMain{
+        background-image: url('../../asset/img_coffee2.jpg');
+        background-size: cover;
+    }  
+}
+.myMainText{
+    background-color: rgba(1, 61, 50, 0.37);
+}
+.allWorks{
+    background-image: url('../../asset/img_coffee.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contact{
+    background-image: url('../../asset/contactBG.png');
+    background-size: cover;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.83);
+}
+
+.myMinWidth{
+    min-width:9rem;
+}
